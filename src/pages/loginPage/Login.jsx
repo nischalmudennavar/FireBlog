@@ -18,7 +18,7 @@ const Login = ({ setIsAuth}) => {
         localStorage.setItem("isAuth", true);
         
         setIsAuth(true);
-        navigate("/");
+        navigate("/fireblog");
         
 
       })
