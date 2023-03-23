@@ -36,7 +36,7 @@ const CreatePost = ({ isAuth }) => {
     if (!isAuth) {
       navigate("/login");
     }
-  }, []);
+  }, [isAuth, navigate]);
   return (
     <div className={styles.createPost}>
       <div className={styles.postContainer}>

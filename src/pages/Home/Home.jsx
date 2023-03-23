@@ -30,7 +30,7 @@ const Home = ({ isAuth }) => {
 
     getposts();
     setLoading(false);
-  }, []);
+  }, [postCollectionRef]);
 
   const posts = postLists.map((post, index) => {
     return (

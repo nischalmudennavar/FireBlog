@@ -4,7 +4,7 @@ import Login from "./pages/loginPage/Login";
 import Home from "./pages/Home/Home";
 import CreatePost from "./pages/CreatePost/CreatePost";
 import Navbar from "./Components/Navbar";
-import "./a";
+import "./app-style.css";
 
 function App() {
   const [isAuth, setIsAuth] = useState(localStorage.getItem("isAuth"));
