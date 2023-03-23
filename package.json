@@ -2,7 +2,7 @@
   "name": "fireblog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nischalmudennavar.github.io/fireblog/login",
+  "homepage": "https://nischalmudennavar.github.io/fireblog/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

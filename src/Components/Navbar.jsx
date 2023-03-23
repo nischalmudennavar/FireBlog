@@ -23,7 +23,7 @@ const Navbar = ({ isAuth, setIsAuth }) => {
 
   return (
     <div className={styles.navbar}>
-      <Link className={styles.link} to="/">
+      <Link className={styles.link} to="/fireblog">
         Home 🏡
       </Link>
 

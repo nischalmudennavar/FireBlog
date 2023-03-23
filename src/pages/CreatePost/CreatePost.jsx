@@ -29,7 +29,7 @@ const CreatePost = ({ isAuth }) => {
         id: auth.currentUser.uid,
       },
     });
-    navigate("/");
+    navigate("/fireblog");
   };
 
   useEffect(() => {

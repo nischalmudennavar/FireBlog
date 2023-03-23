@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./pages/loginPage/Login";
 import Home from "./pages/Home/Home";
@@ -8,12 +8,14 @@ import "./app-style.css";
 
 function App() {
   const [isAuth, setIsAuth] = useState(localStorage.getItem("isAuth"));
+
   return (
     <Router>
       <div className="app">
         <Navbar isAuth={isAuth} setIsAuth={setIsAuth} />
         <Routes>
-          <Route path="/" element={<Home isAuth={isAuth} />} />
+          {/* <Navigate to="/" /> */}
+          <Route path="/fireblog" element={<Home isAuth={isAuth} />} />
           <Route
             path="/login"
             element={<Login setIsAuth={setIsAuth} isAuth={isAuth} />}
