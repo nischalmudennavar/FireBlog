@@ -1,0 +1,72 @@
+.createPost {
+  margin-top: 200px;
+  width: 80%;
+
+  padding: 20px;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.postContainer {
+  width: 80%;
+  min-height: auto;
+  padding: 10px;
+  background: #000;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #191825;
+
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
+}
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+.inputCp {
+  display: flex;
+
+  align-items: start;
+  justify-content: left;
+  width: 100%;
+}
+.inputCp > label {
+  width: 20%;
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+}
+.input,
+.textarea {
+  padding: 10px;
+  margin-left: -10px;
+  width: 80%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: #262438;
+  color: white;
+  outline: none;
+  border: 1px solid #ffffff1c;
+  font-size: 15px;
+}
+.postBtn {
+  width: 75%;
+  position: relative;
+  left: 50px;
+  padding: 10px;
+  font-size: 15px;
+  margin: 20px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background: #865dff;
+  color: white;
+  cursor: pointer;
+}
