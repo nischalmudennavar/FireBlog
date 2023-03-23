@@ -10,8 +10,8 @@ import Navbar from "./Components/Navbar";
 function App() {
   const [isAuth, setIsAuth] = useState(localStorage.getItem("isAuth"));
   return (
-    <div className="app">
-      <Router>
+    <Router>
+      <div className="app">
         <Navbar isAuth={isAuth} setIsAuth={setIsAuth} />
         <Routes>
           <Route path="/" element={<Home isAuth={isAuth} />} />
@@ -21,8 +21,8 @@ function App() {
           />
           <Route path="/createpost" element={<CreatePost isAuth={isAuth} />} />
         </Routes>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
