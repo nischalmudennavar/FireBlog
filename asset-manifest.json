@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/fireblog/static/css/main.849ad7d3.css",
-    "main.js": "/fireblog/static/js/main.eb90516b.js",
+    "main.css": "/fireblog/static/css/main.5be80ace.css",
+    "main.js": "/fireblog/static/js/main.ab29920b.js",
     "index.html": "/fireblog/index.html",
-    "main.849ad7d3.css.map": "/fireblog/static/css/main.849ad7d3.css.map",
-    "main.eb90516b.js.map": "/fireblog/static/js/main.eb90516b.js.map"
+    "main.5be80ace.css.map": "/fireblog/static/css/main.5be80ace.css.map",
+    "main.ab29920b.js.map": "/fireblog/static/js/main.ab29920b.js.map"
   },
   "entrypoints": [
-    "static/css/main.849ad7d3.css",
-    "static/js/main.eb90516b.js"
+    "static/css/main.5be80ace.css",
+    "static/js/main.ab29920b.js"
   ]
 }
